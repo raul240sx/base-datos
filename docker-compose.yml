@@ -6,11 +6,10 @@ services:
     environment:
       POSTGRES_USER: raul
       POSTGRES_PASSWORD: 1234
-      POSTGRES_DB: MI_PRIMERA_DB
     volumes:
       - postgres_data:/var/lib/postgresql/data
     ports:
-      - "5432:5432"
+      - "5430:5430"
     networks:
       - mired
 
